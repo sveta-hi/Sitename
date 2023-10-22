@@ -1,0 +1,161 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 20
+}
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.header-container{
+  margin: auto; 
+  width: 70%;
+  padding: 20px;
+  clear: both;
+  display: table;
+  background-color: #ffffff;
+}
+.header-SiteName{
+  float: left;
+}
+.header-contact{
+  float: right;
+}
+.header-SiteName h1{
+  letter-spacing: 0.01px;
+  text-transform: uppercase;
+  font: 900 35px 'Roboto', sans-serif;
+  color: #f43000;
+}
+.header-SiteName h1 span{
+  text-transform: none;
+  opacity: 0.4;
+  font: 300 15px 'Roboto', sans-serif;
+  font-style: italic;
+  color: #686868;
+}
+/* header-contact */
+.header-contact{
+  position: relative;
+}
+.header-contact button{
+  cursor: pointer;
+  border: none;
+}
+.header-contact span{
+  position: absolute;
+  color: #f43000;
+  top: 7px;
+  left: -18px;
+}
+.button-login{
+  text-transform: uppercase;
+  background-color: #ffffff;
+  font-style: italic;
+  font-size: 10px;
+  margin: 0px 10px;
+}
+.button-contact{
+  font-style: italic;
+  text-transform: uppercase;
+  background-color: #f43000;
+  padding: 12px 40px;
+  color: #ffffff;
+}
+/* menu */
+.menu{
+  background-color: #2c2c2c;
+}
+.menu-container{
+  width: 70%;
+  padding: 20px;
+  margin: auto;
+  clear: both;
+  display: table;
+}
+.menu ul{
+  float: left;
+  list-style-type: none;
+  color: #ffffff;
+}
+.menu ul li{
+  font: 500 19px 'Roboto', sans-serif;
+  text-transform: uppercase;
+  margin: 10px 10px;
+  float: left;
+}
+/* .menu-search */
+.menu-search{
+  position: relative;
+  float: right;
+}
+.menu-search input{
+  font-style: italic;
+  text-transform: uppercase;
+  width: 250px; 
+  height: 40px;
+  border: none;
+}
+.menu-search span{
+  font-size: 30px;
+  position: absolute;
+  top: 4px;
+  right: 0px;
+}
+/* text */
+.text{
+  font-family:'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+.text-container{
+  margin: auto; 
+  width: 70%;
+}
+.text h2{
+  padding-top: 20px;
+  font-size: 30px;
+}
+.text p{
+  margin-top: 20px;
+  width: 72%;
+  font-size: 20px;
+}
+.text h3{
+  margin-top: 20px;
+}
+.text ul{
+padding: 20px;
+}
+.text ul li{
+  margin:10px  0px ;
+}
+.foto{
+  width: 100%;
+  clear: both;
+  display: table;
+  background-color: #f5f5f5;
+}
+.foto-bloc{
+  margin: 10px;
+  float: left;
+}
+.foto-bloc img{
+  width: 130px;
+  height: 100px;
+}
+.foto-container{
+  display: table;
+  margin: auto; 
+  width: 70%;
+}
+.foto h3{
+  padding: 10px;
+  color: #f43000;
+  font: 500 20px 'Roboto', sans-serif;
+}
+.foto h4{
+  font: 300 10px 'Roboto', sans-serif;
+}
